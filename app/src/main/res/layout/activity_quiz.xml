@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    tools:context=".QuizActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/noQuestion"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:paddingLeft="6dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Question No : 1 "/>
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center_horizontal"
+            android:text="@string/Is_Africa_a_country"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/answer1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="@string/write_your_answer"
+            android:inputType="text" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="6dp"
+            android:text="Question No: 2"
+            android:textColor="#000"
+            android:textSize="12sp" />
+
+
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center_horizontal"
+            android:text="What are the three major languages in Nigeria?"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+
+        <CheckBox
+            android:id="@+id/hausa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a. Hausa" />
+
+        <CheckBox
+            android:id="@+id/igbo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="b. Igbo" />
+
+        <CheckBox
+            android:id="@+id/yoruba"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="c. Yoruba" />
+
+        <CheckBox
+            android:id="@+id/french"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="d. French" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="6dp"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:text="Question No : 3 "
+            android:layout_alignParentLeft="true" />
+
+
+        <TextView
+            android:id="@+id/question3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center_horizontal"
+            android:text="Which of the following animals 'Barks' "
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+
+        <RadioGroup
+            android:id="@+id/radio_group1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+
+        <RadioButton
+            android:id="@+id/cat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a. Cat" />
+
+        <RadioButton
+            android:id="@+id/goat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="b. Goat" />
+
+        <RadioButton
+            android:id="@+id/lion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="c. Lion" />
+
+        <RadioButton
+            android:id="@+id/dog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="d. Dog" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="6dp"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:text="Question No : 4 "
+            android:layout_alignParentLeft="true" />
+
+
+
+        <TextView
+            android:id="@+id/question4"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center_horizontal"
+            android:text="Solve the expression 10 * 10 = ?"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+
+        <RadioGroup
+            android:id="@+id/radio_group2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+
+            <RadioButton
+                android:id="@+id/a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="a. 200" />
+
+            <RadioButton
+                android:id="@+id/b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b. 111" />
+
+            <RadioButton
+                android:id="@+id/c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="c. 100" />
+
+            <RadioButton
+                android:id="@+id/d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="d. 101" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="6dp"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:text="Question No : 5 "
+            android:layout_alignParentLeft="true" />
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/holo_blue_light"
+            android:layout_gravity="center_horizontal">
+
+
+            <TextView
+                android:id="@+id/question5"
+                android:layout_width="match_parent"
+                android:text="Identify the following Images:"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center_horizontal"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/option1"
+                android:layout_width="wrap_content"
+                android:text="a)"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:paddingTop="60dp"/>
+
+
+
+            <ImageView
+                android:id="@+id/bicycle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bicycle"
+                android:background="@android:color/holo_blue_light"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="40dp"
+                android:scaleType="centerCrop"/>
+
+
+
+
+            <TextView
+                android:id="@+id/option2"
+                android:layout_width="wrap_content"
+                android:text="b)"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:paddingTop="60dp"
+                android:paddingLeft="200dp"/>
+
+
+            <ImageView
+                android:id="@+id/mercedes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mercedes"
+                android:background="@android:color/holo_blue_light"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginStart="240dp"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/option3"
+                android:layout_width="wrap_content"
+                android:text="c)"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:paddingTop="160dp"/>
+
+            <ImageView
+                android:id="@+id/football"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/footballl"
+                android:background="@android:color/holo_blue_light"
+                android:layout_marginTop="160dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="40dp"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/option4"
+                android:layout_width="wrap_content"
+                android:text="c)"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:paddingTop="160dp"
+                android:paddingLeft="200dp"/>
+
+
+            <ImageView
+                android:id="@+id/basketball"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/basketball"
+                android:background="@android:color/holo_blue_light"
+                android:layout_marginTop="160dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginStart="240dp"
+                android:scaleType="centerCrop"/>
+
+
+        </RelativeLayout>
+
+
+        <EditText
+            android:id="@+id/answer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="a)"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/answer3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="b)"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/answer4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="c)"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/answer5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="d)"
+            android:inputType="text" />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:textSize="12sp"
+        android:background="@drawable/curvedbutton"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="160dp"
+        android:onClick="grade"/>
+
+</LinearLayout>
+
+
+
+</ScrollView>

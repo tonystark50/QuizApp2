@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="write_your_answer">Write your answer</string>
+    <string name="Is_Africa_a_country">Is Africa a country?</string>
+</resources>
