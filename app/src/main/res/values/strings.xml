@@ -1,5 +1,25 @@
 <resources>
-    <string name="app_name">QuizApp</string>
+    <string name="app_name">General Knowledge QuizApp</string>
     <string name="write_your_answer">Write your answer</string>
     <string name="Is_Africa_a_country">Is Africa a country?</string>
+    <string name="Question_No_1">Question No: 1</string>
+    <string name="question_no_2">Question No: 2</string>
+    <string name="question_no_1">Question No: 1</string>
+    <string name="what_are_the_three_major_languages_in_nigeria">What are the three major languages in Nigeria?</string>
+
+    <string name="question_no_3">Question No: 3</string>
+    <string name="which_of_the_following_animals_barks">Which of the following animals \'Barks\'</string>
+
+    <string name="question_no_4">Question No: 4</string>
+    <string name="solve_the_expression_10_10">Solve the expression 10 * 10 = ?</string>
+
+    <string name="identify_the_following_images">Identify the following Images:</string>
+
+    <string name="question_no_6">Question No: 6</string>
+    <string name="who_is_the_current_president_of_nigeria">Who is the current President of Nigeria?</string>
+    <string name="a_mgbemena_anthony_udoka">a.) Mgbemena Anthony Udoka</string>
+    <string name="question_no_7">Question No: 7</string>
+    <string name="who_is_the_founder_of_windows_operating_system">Who is the founder of Windows Operating System?</string>
+    <string name="submit">SUBMIT</string>
+
 </resources>
